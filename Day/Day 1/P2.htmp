@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image tag</title>
+    <title>MY First HTML File</title>
 </head>
 <body>
-    <!-- Image tag :-->
-    <img src=" Dog image.jpg" alt =" the Image of the Dog">>
-
+    <h3>Hello All</h3>
 </body>
-</html
+</html>
