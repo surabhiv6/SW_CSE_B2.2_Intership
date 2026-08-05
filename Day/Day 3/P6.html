@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms 2</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>
+                <input type="name" name="name" placeholder="Enter your name">
+            </p>
+             <p>
+                <input type="email" name="email" placeholder="Enter your email">
+            </p>
+             <p>
+                <input type="password" name="password" placeholder="Enter your password">
+            </p>
+             <p>
+                <input type="age" name="age" placeholder="Enter your age">
+            </p>
+            <p>Gender</p>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <p>
+                <label for="country">Country</label><br>
+                <!---Dropdown menu-->
+                <select name="country" id="country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Canada">Canada</option>
+            </p>
+        </fieldset>
+</body>
+</html>
