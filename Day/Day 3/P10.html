@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables 3</title>
+</head>
+<body>
+    <!--spanning rows and columns-->
+    <h4>colspan</h4>
+    <table border="2">
+        <tr>
+            <th>Sr. No.</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Surabhi</td>
+            <td colspan="2">surabhi@example.com</td>
+        </tr>
+    </table>
+    <h4>rowspan</h4>
+    <table border="2">
+        <tr>
+            <th>Sr. No.</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td rowspan="2">neha</td>
+            <td>neha@example.com</td>
+            <td>1234567890</td>
+        </tr>
+        <tr>
+            <td>neha2@example.com</td>
+            <td>0987654321</td>
+        </tr>
+    </table>
+</body>
+</html>
