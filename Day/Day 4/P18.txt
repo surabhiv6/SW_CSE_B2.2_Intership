@@ -1,0 +1,13 @@
+CSS Selector: are patterns used to choode which HTML elements a CSS 
+rule should style
+1. Type Selector / element Selector
+2. class
+3. Id Selector
+4. Universal Selector
+5. Grouping Selector
+6. Descendant Selector
+7. child Selector: ul ---> li | table ---> tr -> th -> td
+8. sibiling Selector
+9. Attribute Selector
+10. Pseudo-class Selector
+11. Pseudo-element Selector
