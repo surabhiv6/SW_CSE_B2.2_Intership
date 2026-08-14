@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Structure understanding</title>
+    <title>JS DOM Selectors</title>
 </head>
 <body>
-   <H3>DOM Structure understanding</H3>    
-   <p>This is an example html page to explore DOM.</p>       
-    <a href="https://bioub.github.io/dom-visualizer/">DOM Visualizer</a>    
-    <script>       
-     console.log(document); // the entire document      
-     //   console.log(document.body); // the <body> element
-    <H3>DOM Structure understanding</H3>
-    <p>This is an example html page to explore DOM.</p>
-    
+    <p>1. By ID</p>
+    <p id="id-eg">Hello</p>
+
+    <p>2. By class name</p>
+    <p class="class-eg">Namaste</p>
+
+    <h2>3. By Tag name: Tag name is Heading 2</h2>
+
+    <p class="query-selec">4. By CSS Selector</p>
+
     <script>
-        console.log(document); // the entire document
-        console.log(document.body); // the <body> element
-        console.log(document.head); // the <head> element
-        console.log(document.title); // page title
+        const el = document.getElementById("id-eg");
+        console.log(el.textContent);
+
+        const el1 = document.getElementsByClassName("class-eg");
+        console.log(el1.length);
+
+        const head2 = document.getElementsByTagName("h2");
+        console.log(head2.length);
+
+        const qs = document.querySelector(".query-selec");
+        console.log(qs.textContent);
     </script>
 </body>
 </html>
