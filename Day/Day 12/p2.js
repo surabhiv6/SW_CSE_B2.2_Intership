@@ -1,0 +1,2 @@
+import { Welcome } from "./components/P1.jsx";function App() {    return (    <h1>Hello My first react App</h1>  )    <div>        <Welcome />    </div>  );}export default Appexport default App;
+Collapse file‎Day/Day12/my-react-app/src/components/P1.jsx‎Copy file name to clipboard+10Lines changed: 10 additions & 0 deletionsOriginal file line numberDiff line numberDiff line change@@ -0,0 +1,10 @@// Functional Componentexport function Welcome() {  return (    // React fragments    <>      <h1>Hello</h1>      <p>Welcome</p>    </>  );}
